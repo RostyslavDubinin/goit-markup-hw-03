@@ -326,9 +326,11 @@ header>.container {
 
 }
 .section-portfolio-container .item {
-    width: 370px;
+    flex-basis: calc(100%-60px)/3;
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 
 .section-portfolio-container .item:nth-child(3n) {
@@ -344,16 +346,22 @@ header>.container {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-top: 20px;
-    margin-bottom: 4px;
+    margin: 0px;
+    
+   
     
 }
 .section-portfolio .portfolio-title-name {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    margin-top: 0px;
-    margin-bottom: 20px;
+    margin: 0px;
+    
+}
+
+.title-title-name {
+    
+    padding: 20px 24px;
 }
 
 .section-portfolio-button {
